@@ -13,15 +13,17 @@ class Point:
 
 a = Point() # Création d'un objet Point
 b = Point() # Création d'un objet Point
-print("a : x =", a.x, "y =", a.y)
+print("a : x =", a.x, "y =", a.y, "z =", a.z) # On affiche les attributs de a
 a.x = 1.0
 a.y = 2.0
+a.z = 3.0
 b.x = 3.0
 b.y = 4.0
+b.z = 5.0
 
-print("a : x =", a.x, "y =", a.y) # On affiche les attributs de a
-print("b : x =", b.x, "y =", b.y) # On affiche les attributs de b"""
+print("a : x =", a.x, "y =", a.y, "z =", a.z) # On affiche les attributs de a
+print("b : x =", b.x, "y =", b.y, "z =", b.z) # On affiche les attributs de b"""
 a.deplace(1, 2, 3) # On déplace le point a de 1 en x et 2 en y
-print("a : x =", a.x, "y =", a.y) # On affiche les attributs de a
+print("a : x =", a.x, "y =", a.y, "z =", a.z) # On affiche les attributs de a
 b.deplace(3, 4, 5) # On déplace le point b de 3 en x et 4 en y
-print("b : x =", b.x, "y =", b.y) # On affiche les attributs de b
+print("b : x =", b.x, "y =", b.y, "z =", b.z) # On affiche les attributs de b
