@@ -14,7 +14,7 @@ class Point:
 a = Point() # Création d'un objet Point
 b = Point() # Création d'un objet Point
 print("a : x =", a.x, "y =", a.y)
-"""a.x = 1.0
+a.x = 1.0
 a.y = 2.0
 b.x = 3.0
 b.y = 4.0
