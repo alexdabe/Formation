@@ -1,3 +1,4 @@
+# Exercice sur les classes en Python
 class Point:
     "Classe définissant un point caractérisé par ses coordonnées x, y et z."
     def __init__(self):
